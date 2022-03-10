@@ -1,0 +1,42 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    margin-left: 35px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  #myInput {
+
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 95%;
+    margin-top: 10px;
+    margin-left: 35px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    outline: none;
+  }
+  a{
+    text-decoration: none;
+    color: #fff;
+  }
+  tr, td button{
+    padding: 20px;
+    margin: 0 10px;
+    align-items: center;
+  }
+  th{
+    text-align: center;
+  }
